@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your efanele
-email: kardigen+efenele@gmail.com
-description: >- # this means to ignore
+title: Efanele Doc
+description: >- # this means to ignore newlines 
 baseurl: "/" # the subpath of your site, e.g. /blog
+domain: efanele.github.io  
 url: "https://efanele.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-minima
+theme: minima
 plugins:
   - jekyll-feed
 
